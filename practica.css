@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri|Archivo+Black|Fjalla+One&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'ABeeZee', sans-serif;
+    margin: 0;
+
+}
+/*--------estilos base---------*/
+img{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Archivo Black', sans-serif;
+    margin: 0;
+}
+.main-container{
+flex-direction: row;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.container--flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.column{
+    width: 100%;
+}
+
+/*----------------estilos del header-------------*/
+.main-header{
+    width: 100%;
+}
+.logo{
+    font-size: 1.8em;
+    color: #9A8F34;
+    padding: 10px;
+    font-weight: 100;
+}
+.mainheader__contactinfophone{
+    background-color: #9A8F34;
+    color: aliceblue;
+    margin: 0 auto;
+}
+.mainheader-contactdireccion{
+    padding: 10px;
+    margin: 0;
+}
+.main-header[class*="icon-"]:before{
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+/*-----------------estilos del menu -------------------*/
+.main_nav{
+    width: 100%;
+    position: relative;
+    z-index: 2000;
+    padding: 10px;
+}
+.icon-menu{
+    display: block;
+    color: aliceblue ;
+
+}
+.social-icon{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.social-icon[class*="icon-"]{
+    color: black;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    width: 35px;
+    height: 35px;
+    background-color: cornsilk;
+    border-radius: 50%;
+        
+}
+.icon-link{
+    text-decoration: none;
+
+}
+
+.menu{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    padding:0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+
+}
+.menu-link{
+    display: block;
+    padding: 15px;
+    color: seashell;
+    text-decoration: none;
+}
+
+.menu-link:hover{
+    background-color: #E4EF6F  ;
+    color: black;
+    font-style: bold;
+    padding: 1.1%;
+    font-weight: bold;
+}
+/*-----------------estilos del banner -------------------*/
+.banner{
+    margin-top: -20px;
+}
+.banner:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    top: 70;
+}
+.bannerimg{
+    width: 100%;
+}
+.banner-content{
+    width: 90%;
+    color: aliceblue;
+    text-align: center;
+    position: absolute;
+    z-index: 1500;
+    top: 50%;
+    left: 50%;
+    text-decoration: none;
+    transform: translatex(-50%) translateY(-50%);
+}
+
+
+.main-footer{
+  background-color: #121307  ;
+  color: aliceblue;
+}
